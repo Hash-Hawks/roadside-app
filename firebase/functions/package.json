@@ -14,16 +14,16 @@
     "serve": "npm run build && firebase emulators:start --project demo-roadside --only functions,firestore,auth"
   },
   "dependencies": {
-    "firebase-admin": "^14.5.0",
+    "firebase-admin": "^14.5.1",
     "firebase-functions": "^7.4.0",
-    "zod": "^4.6.5"
+    "zod": "^4.6.7"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "@types/node": "^22.0.0",
-    "eslint": "^10.11.0",
+    "@types/node": "^22.20.5",
+    "eslint": "^10.14.0",
     "tsx": "^4.23.15",
     "typescript": "~6.0.3",
-    "typescript-eslint": "^8.71.0"
+    "typescript-eslint": "^8.72.2"
   }
 }
